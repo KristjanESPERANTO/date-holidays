@@ -72,3 +72,8 @@ holidays:
       12-31:
         _name: 12-31
         type: bank
+      # @source https://as.com/futbol/mundial/festivo-nacional-en-paraguay-tras-eliminar-a-alemania-f202606-n/
+      2026-06-30:
+        name:
+          en: Recognition of the historic victory of the Paraguayan national football team over Germany
+          es: Reconocimiento al histórico triunfo de la Selección Paraguaya de Fútbol frente a Alemania

@@ -82,6 +82,15 @@
     "_weekday": "Fri"
   },
   {
+    "date": "2026-06-30 00:00:00",
+    "start": "2026-06-30T03:00:00.000Z",
+    "end": "2026-07-01T03:00:00.000Z",
+    "name": "Reconocimiento al histórico triunfo de la Selección Paraguaya de Fútbol frente a Alemania",
+    "type": "public",
+    "rule": "2026-06-30",
+    "_weekday": "Tue"
+  },
+  {
     "date": "2026-08-15 00:00:00",
     "start": "2026-08-15T03:00:00.000Z",
     "end": "2026-08-16T03:00:00.000Z",
