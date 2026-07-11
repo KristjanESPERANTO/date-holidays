@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.33.0](https://github.com/commenthol/date-holidays/compare/3.32.0...3.33.0) (2026-07-11)
+
+- fix(BR): fix source for holiday in Espírito Santo [0c83b026](https://github.com/commenthol/date-holidays/commit/0c83b026ebaec5373de1c605f7dfeda4a9b8cb33)
+- feat(PY): Add a new holiday for Paraguay in 2026 to recognize the historic victory of the Paraguayan national football team over Germany. [b2af84ea](https://github.com/commenthol/date-holidays/commit/b2af84eae673562a1ad6e0367c5f387b72d44437)
+- chore(tstyche): disable tstyche test as it fails CI [e42ca3b0](https://github.com/commenthol/date-holidays/commit/e42ca3b0a9845dc6be451dc0579ef945b6e1ffdb)
+- fix(DK): use formal Danish holiday names and optimize observance notes [5887c5d0](https://github.com/commenthol/date-holidays/commit/5887c5d0264c505c010e43dd97e56672aafc5be0)
+- feat(BR): add Espírito Santo and Goiás state holidays [0b875d25](https://github.com/commenthol/date-holidays/commit/0b875d25d29804cea6eb1b4175e78ed4d3f3e9ce)
+
 ## [3.32.0](https://github.com/commenthol/date-holidays/compare/3.31.0...3.32.0) (2026-06-28)
 
 - chore(github-actions): add node@26 and pin actions to hash commits [55232316](https://github.com/commenthol/date-holidays/commit/552323166e32fd473bfeb1ba09be068b47b55cdb)
