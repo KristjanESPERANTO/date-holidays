@@ -215,7 +215,7 @@
     "fixtures": "mocha test/all.mocha.js --writetests --countries",
     "test": "npm-run-all test:*",
     "test:ci": "mocha",
-    "test:ts": "tstyche",
+    "__test:ts": "tstyche",
     "watch": "watch-run -p data/countries/*.yaml npm run yaml",
     "webpack": "webpack",
     "webpack:analyze": "webpack",
