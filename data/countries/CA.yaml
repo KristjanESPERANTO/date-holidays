@@ -57,8 +57,6 @@ holidays:
         type: observance
       easter -2:
         _name: easter -2
-      easter:
-        _name: easter
       2nd sunday after 05-01:
         _name: Mothers Day
         type: observance
