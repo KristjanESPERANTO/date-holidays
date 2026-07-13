@@ -73,10 +73,6 @@ holidays:
         name:
           en: Canada Day
           fr: Fête du Canada
-      1st monday in August:
-        name:
-          en: Civic Holiday
-          fr: Premier lundi d’août
       1st monday in September:
         _name: 05-01
       # @source https://www.canada.ca/en/canadian-heritage/campaigns/national-day-truth-reconciliation.html
@@ -129,6 +125,9 @@ holidays:
           - America/Creston
           - America/Dawson_Creek
         days:
+          1st monday in August:
+            name:
+              en: British Columbia Day
           2nd monday after 02-01:
             name:
               en: Family Day
@@ -156,6 +155,7 @@ holidays:
             name:
               en: Terry Fox Day
               fr: Journée Terry Fox
+            type: optional
       NB:
         name: New Brunswick
         zones:
@@ -223,12 +223,17 @@ holidays:
             name:
               en: Natal Day
               fr: Jour de la Fondation
+            type: optional
       NT:
         name: Northwest Territories
         zones:
           - America/Yellowknife
           - America/Inuvik
         days:
+          1st monday in August:
+            name:
+              en: Civic Holiday
+              fr: Premier lundi d’août
           # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
           easter: false
           # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
@@ -251,6 +256,10 @@ holidays:
           - America/Atikokan
           - America/Cambridge_Bay
         days:
+          1st monday in August:
+            name:
+              en: Civic Holiday
+              fr: Premier lundi d’août
           07-09:
             name:
               en: Nunavut Day
@@ -272,6 +281,11 @@ holidays:
               fr: Fête de la famille
           easter 1:
             _name: easter 1
+          1st monday in August:
+            name:
+              en: Civic Holiday
+              fr: Premier lundi d’août
+            type: optional
           # @source https://www.ontario.ca/document/your-guide-employment-standards-act-0/public-holidays
           12-26:
             _name: 12-26
@@ -315,7 +329,6 @@ holidays:
             name:
               en: National Holiday
               fr: Fête nationale du Québec
-          monday after 08-01: false
           # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
           11-11: false
           # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
