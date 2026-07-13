@@ -92,10 +92,6 @@ holidays:
           en: Halloween
           fr: l'Halloween
         type: observance
-      11-11:
-        name:
-          en: Remembrance Day
-          fr: Jour du Souvenir
       12-25:
         _name: 12-25
     states:
@@ -116,6 +112,10 @@ holidays:
               en: Heritage Day
               fr: Fête du patrimoine
             type: optional
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           09-30 since 2021: false
       BC:
         name: British Columbia
@@ -128,6 +128,10 @@ holidays:
           1st monday in August:
             name:
               en: British Columbia Day
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           2nd monday after 02-01:
             name:
               en: Family Day
@@ -156,6 +160,11 @@ holidays:
               en: Terry Fox Day
               fr: Journée Terry Fox
             type: optional
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
+            type: optional
       NB:
         name: New Brunswick
         zones:
@@ -165,6 +174,10 @@ holidays:
             name:
               en: New Brunswick Day
               fr: Jour de Nouveau Brunswick
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           # @attrib https://en.wikipedia.org/wiki/Family_Day_(Canada)
           3rd monday after 02-01:
             name:
@@ -224,6 +237,10 @@ holidays:
               en: Natal Day
               fr: Jour de la Fondation
             type: optional
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
       NT:
         name: Northwest Territories
         zones:
@@ -234,6 +251,10 @@ holidays:
             name:
               en: Civic Holiday
               fr: Premier lundi d’août
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
           easter: false
           # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
@@ -264,6 +285,10 @@ holidays:
             name:
               en: Nunavut Day
             type: bank
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           09-30 since 2021: false
       "ON":
         name: Ontario
@@ -286,6 +311,11 @@ holidays:
               en: Civic Holiday
               fr: Premier lundi d’août
             type: optional
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
+            type: optional
           # @source https://www.ontario.ca/document/your-guide-employment-standards-act-0/public-holidays
           12-26:
             _name: 12-26
@@ -304,6 +334,10 @@ holidays:
             name:
               en: Gold Cup Parade Day
               fr: "Défilé de la Coupe d'or"
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           09-30 since 2021: false
       # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
       QC:
@@ -348,6 +382,10 @@ holidays:
           1st monday in August:
             name:
               en: Saskatchewan Day
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           09-30 since 2021: false
       YT:
         name: Yukon
@@ -357,6 +395,10 @@ holidays:
         days:
           easter 1:
             _name: easter 1
+          11-11:
+            name:
+              en: Remembrance Day
+              fr: Jour du Souvenir
           3rd monday in August:
             name:
               en: Discovery Day
