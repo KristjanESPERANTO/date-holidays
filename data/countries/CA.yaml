@@ -181,6 +181,10 @@ holidays:
           - America/St_Johns
           - America/Goose_Bay
         days:
+          # @source https://www.assembly.nl.ca/legislation/sr/annualstatutes/RSN1990/S15.c90.htm
+          07-01:
+            name:
+              en: Memorial Day
           03-17:
             name:
               en: Saint Patrick's Day
@@ -201,6 +205,8 @@ holidays:
               en: Orangemen's Day
               fr: Fête des orangistes
             type: optional
+          # @source https://www.assembly.nl.ca/legislation/sr/annualstatutes/RSN1990/S15.c90.htm
+          1st monday in August: false
           11-11:
             name:
               en: Armistice Day
@@ -225,6 +231,11 @@ holidays:
           - America/Yellowknife
           - America/Inuvik
         days:
+          # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
+          easter: false
+          # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
+          easter 1:
+            _name: easter 1
           06-21 since 2001:
             name:
               en: National Indigenous Peoples Day
@@ -287,8 +298,10 @@ holidays:
           easter -2:
             _name: easter -2
             note: Either Good Friday or Easter Monday, at the employer’s option
+          # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
           easter 1:
             _name: easter 1
+            type: optional
             note: Either Good Friday or Easter Monday, at the employer’s option
           monday before 05-25:
             name:
@@ -299,6 +312,10 @@ holidays:
               en: National Holiday
               fr: Fête nationale du Québec
           monday after 08-01: false
+          # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
+          11-11: false
+          # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
+          12-26: false
           09-30 since 2021: false
       SK:
         name: Saskatchewan
