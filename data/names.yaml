@@ -79,7 +79,7 @@ names:
       fi: Loppiainen
       fr: l'Épiphanie
       el: Θεοφάνεια
-      hr: Bogojavljenje, Sveta tri kralja
+      hr: Bogojavljenje ili Sveta tri kralja
       hu: Vízkereszt
       it: Befana
       # it: Epifania
@@ -450,7 +450,7 @@ names:
       fo: Fyrsti gerandisdagur eftir jóladag
       fr: Lendemain de Noël
       # fr: Saint Etienne
-      hr: Svetog Stjepana
+      hr: Sveti Stjepan
       hu: Karácsony másnapja
       it: Santo Stefano
       is: Annar í jólum
