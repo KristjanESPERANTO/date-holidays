@@ -60,10 +60,6 @@ holidays:
       2nd sunday after 05-01:
         _name: Mothers Day
         type: observance
-      monday before 05-25:
-        name:
-          en: Victoria Day
-          fr: Fête de la Reine
       3rd sunday after 06-01:
         _name: Fathers Day
         type: observance
@@ -102,6 +98,10 @@ holidays:
             name:
               en: Family Day
               fr: Fête de la famille
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           easter 1:
             _name: easter 1
             type: optional
@@ -123,6 +123,10 @@ holidays:
           - America/Creston
           - America/Dawson_Creek
         days:
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           1st monday in August:
             name:
               en: British Columbia Day
@@ -153,6 +157,10 @@ holidays:
             name:
               en: Louis Riel Day
               fr: Journée Louis Riel
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           1st monday in August:
             name:
               en: Terry Fox Day
@@ -249,6 +257,10 @@ holidays:
             name:
               en: Civic Holiday
               fr: Premier lundi d’août
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           11-11:
             name:
               en: Remembrance Day
@@ -275,6 +287,10 @@ holidays:
           - America/Atikokan
           - America/Cambridge_Bay
         days:
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           1st monday in August:
             name:
               en: Civic Holiday
@@ -302,6 +318,10 @@ holidays:
             name:
               en: Family Day
               fr: Fête de la famille
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           easter 1:
             _name: easter 1
           1st monday in August:
@@ -353,6 +373,7 @@ holidays:
             _name: easter 1
             type: optional
             note: Either Good Friday or Easter Monday, at the employer’s option
+          # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
           monday before 05-25:
             name:
               en: National Patriots' Day
@@ -377,6 +398,10 @@ holidays:
             name:
               en: Family Day
               fr: Fête de la famille
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           1st monday in August:
             name:
               en: Saskatchewan Day
@@ -393,6 +418,10 @@ holidays:
         days:
           easter 1:
             _name: easter 1
+          monday before 05-25:
+            name:
+              en: Victoria Day
+              fr: Fête de la Reine
           11-11:
             name:
               en: Remembrance Day
