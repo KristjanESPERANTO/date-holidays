@@ -102,8 +102,6 @@ holidays:
           fr: Jour du Souvenir
       12-25:
         _name: 12-25
-      12-26:
-        _name: 12-26
     states:
       AB:
         name: Alberta
@@ -240,6 +238,9 @@ holidays:
             name:
               en: National Indigenous Peoples Day
               fr: Journée nationale des Autochthones
+          # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
+          12-26:
+            _name: 12-26
       NU:
         name: Nunavut
         zones:
@@ -271,6 +272,9 @@ holidays:
               fr: Fête de la famille
           easter 1:
             _name: easter 1
+          # @source https://www.ontario.ca/document/your-guide-employment-standards-act-0/public-holidays
+          12-26:
+            _name: 12-26
           09-30 since 2021: false
       PE:
         name: Prince Edward Island
