@@ -77,10 +77,6 @@ holidays:
           fr: Journée nationale de la vérité et de la réconciliation
         type: observance
         note: Not a paid statutory holiday in all provinces and territories; Only federally-regulated employers governed by the Canada Labour Code are required to give their employees a paid day off work
-      2nd monday after 10-01:
-        name:
-          en: Thanksgiving
-          fr: Action de grâce
       10-31 18:00:
         name:
           en: Halloween
@@ -110,6 +106,10 @@ holidays:
               en: Heritage Day
               fr: Fête du patrimoine
             type: optional
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
           11-11:
             name:
               en: Remembrance Day
@@ -130,6 +130,10 @@ holidays:
           1st monday in August:
             name:
               en: British Columbia Day
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
           11-11:
             name:
               en: Remembrance Day
@@ -166,6 +170,10 @@ holidays:
               en: Terry Fox Day
               fr: Journée Terry Fox
             type: optional
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
           11-11:
             name:
               en: Remembrance Day
@@ -274,6 +282,10 @@ holidays:
             name:
               en: National Indigenous Peoples Day
               fr: Journée nationale des Autochthones
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
           # @source https://my.hr.gov.nt.ca/employees/leave-time/statutory-holidays
           12-26:
             _name: 12-26
@@ -299,6 +311,10 @@ holidays:
             name:
               en: Nunavut Day
             type: bank
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
           11-11:
             name:
               en: Remembrance Day
@@ -329,6 +345,10 @@ holidays:
               en: Civic Holiday
               fr: Premier lundi d’août
             type: optional
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
           11-11:
             name:
               en: Remembrance Day
@@ -382,6 +402,10 @@ holidays:
             name:
               en: National Holiday
               fr: Fête nationale du Québec
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
           # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
           11-11: false
           # @source https://www.cnesst.gouv.qc.ca/en/working-conditions/leave/statutory-holidays/statutory-holidays
@@ -405,6 +429,10 @@ holidays:
           1st monday in August:
             name:
               en: Saskatchewan Day
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
           11-11:
             name:
               en: Remembrance Day
@@ -430,6 +458,10 @@ holidays:
             name:
               en: Discovery Day
               fr: Jour de la Découverte
+          2nd monday after 10-01:
+            name:
+              en: Thanksgiving
+              fr: Action de grâce
           06-21 since 2017:
             name:
               en: National Indigenous Peoples Day
