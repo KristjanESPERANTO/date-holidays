@@ -821,6 +821,22 @@ Any details on structure and
 available grammar for holiday attribution is described in
 [holidays.yaml specification][].
 
+### Compare with OpenHolidays API data
+
+The public holiday dates can be compared with the sibling
+[`openholidaysapi.data`](https://github.com/openholidaysapi/data) repository:
+
+```bash
+npm run compare:openholidays
+npm run compare:openholidays -- --country DE --from 2020 --to 2025
+npm run compare:openholidays -- --verbose
+npm run compare:openholidays -- --json > comparison.json
+```
+
+The report compares national dates per country. Regional OpenHolidays rows are
+counted but excluded because their subdivision codes do not map directly to
+the `date-holidays` state and region hierarchy.
+
 <a name="custom"></a>
 
 ## Custom builds of `holidays.json`
