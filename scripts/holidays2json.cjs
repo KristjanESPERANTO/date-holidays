@@ -7,7 +7,20 @@ const path = require('path')
 const resolve = path.resolve
 const jsyaml = require('js-yaml')
 const PrePin = require('prepin')
-const { pick: _pick, omit: _omit } = require('lodash')
+
+function pickKeys (obj, keys) {
+  const wanted = new Set(keys)
+  return Object.fromEntries(
+    Object.entries(obj).filter(([key]) => wanted.has(key))
+  )
+}
+
+function omitKeys (obj, keys) {
+  const unwanted = new Set(keys)
+  return Object.fromEntries(
+    Object.entries(obj).filter(([key]) => !unwanted.has(key))
+  )
+}
 
 const REGEX = /^([A-Z]+)\.yaml$/
 
@@ -68,9 +81,9 @@ Holidays2json.prototype = {
     Object.assign(obj, this.load(null, resolve(config.dirname, 'names.yaml')))
 
     if (this.opts.pick) {
-      obj.holidays = _pick(obj.holidays, this.opts.pick)
+      obj.holidays = pickKeys(obj.holidays, this.opts.pick)
     } else if (this.opts.omit) {
-      obj.holidays = _omit(obj.holidays, this.opts.omit)
+      obj.holidays = omitKeys(obj.holidays, this.opts.omit)
     }
 
     obj.version = new Date().toISOString().replace(/^(.*)T.*$/, '$1')
