@@ -214,6 +214,7 @@
     "test": "test"
   },
   "scripts": {
+    "compare:openholidays": "node scripts/compare-openholidaysapi.cjs",
     "all": "run-s clean build lint test doc:tree doc:attrib webpack",
     "build": "run-s yaml build:only",
     "build:only": "rollup -c",
